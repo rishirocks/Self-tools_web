@@ -36,7 +36,7 @@ body {
     text-transform: uppercase;
     text-shadow: 0 0 10px whitesmoke;
     letter-spacing: 0.8rem;
-    font-size: 4rem;
+    font-size: 6rem;
     color: white;
 }
 
@@ -79,7 +79,7 @@ body {
 }
 
 .container p {
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
 /* Third Container Styles */
@@ -140,8 +140,7 @@ body {
     box-shadow: 0 0 10px rgba(255, 255, 255);
     border-radius: 10px;
     padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
 }
 
 .second-container .M_1,
@@ -149,7 +148,8 @@ body {
 .second-container .M_3,
 .second-container .M_4 {
     width: 40%;
-    margin: 4%;
+    margin-left: 25%;
+    margin-top: 5%;
     text-align: center;
     border-radius: 10px;
     padding: 10px;
@@ -290,7 +290,7 @@ footer p {
 /* Laptop Styles */
 @media (min-width: 1025px) {
     .head-left h2 {
-        font-size: 5rem;
+        font-size: 8rem;
     }
     .container {
         margin: 7%;
